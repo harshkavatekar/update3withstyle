@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Search</title>
+  
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<link rel="stylesheet" href="css/main.css">
+  </head>
+  <body>
+    <!-- for the background setting -->
+    
+    <!-- these are button and input bars -->
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <h1 style="  font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        font-variant: normal;
+        font-family: Poppins, sans-serif;
+        font-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0);
+        text-align: center;
+        text-indent: 0px;
+        line-height: 72px;
+         text-transform: none;
+         text-decoration: none solid rgb(0, 0, 0);
+        ">Recommended books</h1>
+        <!--<form class="form-group">-->
+        <div class="form-inline" style="">
+          <input type="text" placeholder="Search" class="form-control" id="input" style="width:179px; ;">
+          <button type="button" class="btn " onclick="myFunction()" id="button" style="position: absolute;"><i class="fa fa-search"></i></button>
+        <!--</form>-->
+      </div>
+      </div>
+    </div>
+  
+    <script>
+      // Here the value is stored in new variable x 
+
+      function myFunction() {
+          var x = 
+              document.getElementById("input").value;
+          console.log(x);
+         document.getElementById(
+           "searchresults").innerHTML = 'Search results for '+x+' books';
+      }
+  </script>
+<!-- this container will show results -->
+<!--  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 text-center">
+        <div class="col-lg-6"  id="results" >
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  </div>-->
+  <div class="book-list" >
+    
+    <p id="searchresults" class="inline-p">Search Results:</p>
+    
+    <div id="list-output" class="list-group">
+      <div class="row">
+        <!-- card  -->
+
+      </div>
+
+    </div>
+  </div>  
+</div>
+
+
+  
+
+
+
+
+    <script
+     src="https://code.jquery.com/jquery-3.2.1.min.js"
+     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+     crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src=js/main.js></script>
+  </body>
+
+</html>
