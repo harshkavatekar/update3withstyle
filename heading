@@ -6,22 +6,19 @@ Explore the companies is greater detail with detailed ratings.
 
 
 nfo for selected <p> element:
-  (I): — — — — — — —
-  font size: 16px
-  font style: normal
-  font weight: 400
-  font variant: normal
-  font family: Poppins, sans-serif
-  rendered font family (estimated): Poppins
-  (II): — — — — — — —
-  font color: rgb(102, 102, 102)
-  background color: rgba(0, 0, 0, 0)
-  (III): — — — — — — —
-  text align: center
-  text indent: 0px
-  line height: 28.8px
-  text transform: none
-  text decoration: none solid rgb(102, 102, 102)
+ 
+  font size: 16px;
+  font style: normal;
+  font weight: 400;
+  font variant: normal;
+  font family: Poppins, sans-serif;
+  font color: rgb(102, 102, 102);
+  background color: rgba(0, 0, 0, 0);
+  text align: center;
+  text indent: 0px;
+  line height: 28.8px;
+  text transform: none;
+  text decoration: none solid rgb(102, 102, 102);
   (IV): — — — — — — —
   HTML element id: N/A
   HTML element class: N/A
